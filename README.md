@@ -5,11 +5,11 @@ This project builds a Convolutional Neural Network (CNN) using TensorFlow and Ke
 Model Training
 Image Classification Script for predicting animal class from a given image.
 
-Installation
+# Installation
 
 pip install tensorflow matplotlib
 
-Model Training
+# Model Training
 Train your model using:
 
 train_model.py
@@ -19,16 +19,16 @@ This will:
 Train the model on 80% of the dataset
 Validate on 20%
 
-Save:
+# Save:
 
 animal_classifier_model.h5: The trained model
 
 training_accuracy.png: Accuracy plot
 
- Image Classification
+# Image Classification
 You can predict an animal class using an image with the classify_image.py script.
 
-Usage
+# Usage
 
 python classify_image.py path_to_image.jpg
 
